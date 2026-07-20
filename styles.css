@@ -1,0 +1,88 @@
+
+.attribution { 
+  font-size: 0.6875rem; 
+  text-align: center; 
+  padding-top: 20px;
+}
+.attribution a {
+ color: hsl(228, 45%, 44%); 
+}
+
+
+/*the below code is not used*/
+/*.overlay{ 
+/*moved these to body*/
+/* display: flex;
+align-items: center;
+justify-content: center;
+/*the below code is discarded*/
+/* top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+}*/
+ 
+
+p{
+  font-family: "Outfit", Arial;
+  margin: 0;
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: hsl(212, 45%, 89%);
+/*changed it from 3000px*/
+min-height: 100vh;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 499px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 25px 25px;
+}
+
+.qr-image{
+  width: 288px;
+  border-radius: 10px;
+  margin: 16px 16px 24px 16px;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 288px;
+  height: 131px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 40px;
+}
+
+.card-title{
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 16px;
+}
+
+.card-subtitle{
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  width: 256px;
+}
+
+/*Mobile and dekstop min & max width*/
+@media (min-width: 375px) and (max-width: 1440px) {
+  
+}
